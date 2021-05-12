@@ -56,13 +56,13 @@ En el siguiente video puede observar cual sería el funcionamiento normal de la 
 
 Abra un terminal en su ordenador y siga los siguientes pasos.
 
-El proyecto debe clonarse en el ordenador desde el que se está trabajando con:
+Descarguese el código pinchando ms arriba en el botón code y eligiendo opción "Download ZIP". Alternativamente, El proyecto puede clonarse en el ordenador desde el que se está trabajando con:
 
 ```
 $ git clone https://github.com/BBDD-ETSIT/P5_ORM_FLASK
 ```
 
-y entrar en el directorio de trabajo
+Navegue a través de un terminal a la carpeta P5_ORM_FLASK. Si se descargo el ZIP, descomprimalo previamente.
 
 ```
 $ cd P5_ORM_FLASK
