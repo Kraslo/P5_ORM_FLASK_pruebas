@@ -16,7 +16,6 @@
 ## 2. Dependencias
 
 Para realizar la práctica el alumno deberá tener instalado en su ordenador:
-- Herramienta GIT para gestión de repositorios [Github](https://git-scm.com/downloads)
 - Entorno de ejecución de Python 3 [Python](https://www.python.org/downloads/)
 - Base de datos PostgreSQL [PostgreSQL](https://www.postgresql.org/download/)
 
@@ -56,14 +55,9 @@ En el siguiente video puede observar cual sería el funcionamiento normal de la 
 
 Abra un terminal en su ordenador y siga los siguientes pasos.
 
-Descarguese el código pinchando ms arriba en el botón code y eligiendo opción "Download ZIP". Alternativamente, El proyecto puede clonarse en el ordenador desde el que se está trabajando con:
+Descarguese y descomprima el código pinchando más arriba en el botón code y eligiendo opción "Download ZIP".
 
-```
-$ git clone https://github.com/BBDD-ETSIT/P5_ORM_FLASK
-```
-
-Navegue a través de un terminal a la carpeta P5_ORM_FLASK. Si se descargo el ZIP, descomprimalo previamente.
-
+Navegue a través de un terminal a la carpeta P5_ORM_FLASK.
 ```
 $ cd P5_ORM_FLASK
 ```
