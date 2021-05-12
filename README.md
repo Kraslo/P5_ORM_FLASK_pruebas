@@ -238,7 +238,10 @@ id = uuid.uuid4()
 
 **Descipcion:**
 - Asigna un medico a un paciente en la base de datos.
-
+- Para acceder al id del doctor puede usar:
+```
+doctor_id = request.form['doctor']
+```
 **Parametros:**
 
 - patient_id - Id del paciente
