@@ -96,11 +96,10 @@ $ pip3 install -r flaskr/requirements.txt
 ```
 
 
-A continuación debe abrir el fichero flaskr/run.py y sustituir las siguiente lineas con el usuario/contraseña de su base de datos Postgres
+A continuación debe abrir el fichero flaskr/run.py y definir la URI de conexión (inventese el nombre que quiera para la base de datos). Rellene la siguiente linea
 
 ```
-postgres_username = 'postgres'
-postgres_password = 'example'
+app.config['SQLALCHEMY_DATABASE_URI'] = ### Definir la URI de Conexión
 ```
 
 Teniendo arrancado PostgreSQL, indicamos a Flask el fichero con el que arrancar el servidor
