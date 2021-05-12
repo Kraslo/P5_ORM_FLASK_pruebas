@@ -101,7 +101,7 @@ Teniendo arrancado PostgreSQL, indicamos a Flask el fichero con el que arrancar 
 $ export FLASK_APP=flaskr/run.py
 ```
 
-Podemos arrancar el servidor con el siguiente comando
+Podemos arrancar el servidor con el siguiente comando. Hasta que no realize el primer ejercicio sobre la configuración de la URI, el servidor no arrancara.
 
 ```
 $ flask run
