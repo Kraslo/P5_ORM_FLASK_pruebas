@@ -159,7 +159,7 @@ city = request.form['city']
 ### list_hospital_patients(hospital_id)
 
 **Descipcion:**
-- Busca todos los pacientes correspondientes a un hospital
+- Busca todos los pacientes correspondientes a un hospital ordenados por el nombre (de la A a la Z)
 
 **Parametros:**
 
