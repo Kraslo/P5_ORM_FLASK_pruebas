@@ -263,10 +263,8 @@ doctor_id = request.form['doctor']
 
 ## 7. Instrucciones para la Entrega y Evaluación.
 
-El alumno podrá subir al Moodle la entrega tantas veces como desee pero se quedará registrada solo la última subida.
+El alumno deberá subir a Moodle únicamente el fichero *run.py* con las modificaciones realizadas. 
 
 **RÚBRICA**: Cada método que se pide resolver de la practica se puntuara de la siguiente manera:
 -  **1 punto por cada uno de las siguientes funciones realizadas:**  list_hospitals, filterHospitalsByCity, list_hospital_patients, read, create, update y delete
 -  **1,5 puntos por cada uno de las siguientes funciones realizadas:**  assignDoctor y showPatientDoctors 
-
-Si pasa todos los tests se dará la máxima puntuación. 
