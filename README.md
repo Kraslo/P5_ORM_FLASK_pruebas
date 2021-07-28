@@ -93,7 +93,8 @@ Teniendo arrancado PostgreSQL, indicamos a Flask el fichero con el que arrancar 
 
 ```
 [LINUX/MAC] $ export FLASK_APP=flaskr/run.py
-[WINDOWS] > set FLASK_APP=flaskr/run.py
+[WINDOWS/cmd] > set FLASK_APP=flaskr/run.py
+[WINDOWS/powershell] > $env:FLASK_APP = "flaskr/run.py"
 ```
 
 Podemos arrancar el servidor con el siguiente comando. Hasta que no realize el primer ejercicio sobre la configuración de la URI, el servidor no arrancara.
@@ -120,7 +121,7 @@ Defnirla URI de Conexión a la base de datos con nombre **orm_bbdd** :
 
 ```app.config['SQLALCHEMY_DATABASE_URI'] = ### Definir la URI de ```
 
-En cuanto a las funciones que debe editar en run.js debe hacer lo siguiente:
+En cuanto a las funciones que debe editar en run.py debe hacer lo siguiente:
 
 ### show_hospitals()
 
