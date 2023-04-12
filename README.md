@@ -106,11 +106,15 @@ $ flask run
 
 Abra un navegador y vaya a la url "http://localhost:5000" para ver la aplicación de gestión de pacientes.
 
-**NOTA: Cada vez que se quiera realizar una prueba del código desarrollado, debemos parar y arrancar de nuevo la practica. Para ello, desde el terminal pulse ctrl+c para parar y arranque de nuevo con npm start**
 
-**NOTA2: Si ha modificado alguna tabla de manera indeseada y se quiere volver a restablecer los valores por defecto, borre la base de datos orm_bddd y vuelva a arrancar el servidor con flask.**
+## 5. Consejos para antes de empezar
 
-## 5. Tareas a realizar
+**Cada vez que se quiera realizar una prueba del código desarrollado, debemos parar y arrancar de nuevo la practica. Para ello, desde el terminal pulse ctrl+c para parar y arranque de nuevo con flask run**
+
+**Si ha modificado alguna tabla de manera indeseada y se quiere volver a restablecer los valores por defecto, borre la base de datos orm_bddd y vuelva a arrancar el servidor con flask.**
+
+
+## 6. Tareas a realizar
 
 
 El alumno deberá editar dos ficheros:
