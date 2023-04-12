@@ -9,7 +9,7 @@
 
 ## 1. Objetivo
 
-- Desarrollar las 4 operaciones CRUD (Create, Read, Update and Delete) a través de un ORM
+- Desarrollar las 4 operaciones CRUD (Create, Read, Update and Delete), así como otra serie de queries, a través de un ORM
 - Practicar con un ORM para realizar queries
 - Afianzar las ventajas de usar ORMs en el desarrollo de aplicaciones
 
@@ -25,7 +25,7 @@ La práctica simula una aplicación de gestión de pacientes basada en el patron
 
 La **vista** es una interfaz web basada en HTML y CSS que permite realizar diversas acciones sobre los pacientes como crear, editar, buscar, filtrar, listar o eliminar. La vista esta incluida ya en el codigo descargado.
 
-El **modelo** es la representación de la información de los pacientes. En esta apliación se van a usar tres modelos: doctor, hospital y patient. Un ejemplo de como están definidos los modelos en esta práctica es el siguiente (la definición de todos los modelos se enceuntra en models.py):
+El **modelo** es la representación de la información de los pacientes. En esta apliación se van a usar tres modelos: doctor, hospital y patient. Un ejemplo de como están definidos los modelos en esta práctica es el siguiente (la definición de todos los modelos se encuentra en models.py):
 
 ```
 class Patient(db.Model):
@@ -117,7 +117,7 @@ Abra un navegador y vaya a la url "http://localhost:5000" para ver la aplicació
 ## 6. Tareas a realizar
 
 
-El alumno deberá editar dos ficheros:
+El alumno deberá editar el siguiente fichero:
 
 - flaskr/run.py. Se le provee un esqueleto con todos los funciones que deberá rellenar. En cada uno de estas funciones se deberá hacer uso del ORM SQL Alchemy para realizar operaciones con la base de datos y devolver un resultado de la operación.
 
@@ -144,7 +144,7 @@ En cuanto a las funciones que debe editar en run.py debe hacer lo siguiente:
 
 **Descipcion:**
 - Busca en la colección "Hospital" filtrando por ciudad
-- Para acceder a la ciudad debe usar :
+- Para acceder al parametro ciudad que se pasa desde la vista puede usar:
 ```
 city = request.form['city']
 ```
