@@ -121,7 +121,7 @@ El alumno deberá editar dos ficheros:
 
 - flaskr/run.py. Se le provee un esqueleto con todos los funciones que deberá rellenar. En cada uno de estas funciones se deberá hacer uso del ORM SQL Alchemy para realizar operaciones con la base de datos y devolver un resultado de la operación.
 
-Defnirla URI de Conexión a la base de datos con nombre **orm_bbdd** :
+Definir la URI de Conexión a la base de datos con nombre **orm_bbdd** :
 
 ```app.config['SQLALCHEMY_DATABASE_URI'] = ### Definir la URI de ```
 
