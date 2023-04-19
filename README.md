@@ -195,9 +195,9 @@ city = request.form['city']
 ```
 id = uuid.uuid4()
 ```
-- name - Nombre del paciente
-- surname - Apellido del paciente 
-- dni - DNI del paciente
+- name - Nombre del paciente. Puede acceder al parametro "name" al igual que en la función "filterHospitalsByCity" a city
+- surname - Apellido del paciente. Puede acceder al parametro "surname" al igual que en la función "filterHospitalsByCity" a city
+- dni - DNI del paciente. Puede acceder al parametro "dni" al igual que en la función "filterHospitalsByCity" a city
 - hospital_id - Id del hospital
 
 **Returns:**
@@ -213,9 +213,9 @@ id = uuid.uuid4()
 
 - hospital_id - Id del hospital
 - patient_id - Id del paciente
-- name - Nombre del paciente
-- surname - Apellido del paciente 
-- dni - DNI del paciente
+- name - Nombre del paciente. Puede acceder al parametro "name" al igual que en la función "filterHospitalsByCity" a city
+- surname - Apellido del paciente. Puede acceder al parametro "surname" al igual que en la función "filterHospitalsByCity" a city
+- dni - DNI del paciente. Puede acceder al parametro "dni" al igual que en la función "filterHospitalsByCity" a city
 
 **Returns:**
 
