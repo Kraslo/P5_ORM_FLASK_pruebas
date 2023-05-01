@@ -11,7 +11,8 @@ class Hospital(db.Model):
     id = db.Column(db.String(80), primary_key=True)
     name = db.Column(db.String(80), nullable=False)
     city = db.Column(db.String(256), nullable=False)
-    patient = db.relationship('Patient', backref='patient', uselist=False)
+    patient = db.relationship('Patient', backref='patient')
+    # patient = db.relationship('Patient', backref='patient', uselist=False)
 
 
     def __init__(self,id,name,city):

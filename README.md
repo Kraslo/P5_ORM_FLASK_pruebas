@@ -123,7 +123,7 @@ El alumno deberá editar el siguiente fichero:
 
 Definir la URI de Conexión a la base de datos con nombre **orm_bbdd** :
 
-```app.config['SQLALCHEMY_DATABASE_URI'] = ### Definir la URI de ```
+```app.config['SQLALCHEMY_DATABASE_URI'] = ### Definir la URI de Conexión.```
 
 En cuanto a las funciones que debe editar en run.py debe hacer lo siguiente:
 
@@ -132,7 +132,7 @@ En cuanto a las funciones que debe editar en run.py debe hacer lo siguiente:
 **Descipcion:**
 - Busca en la base de datos todos los hospitales existentes en la coleccion "Hospital"
 
-**Parametros:**
+**Parámetros:**
 
 - Ninguno
 
@@ -148,7 +148,7 @@ En cuanto a las funciones que debe editar en run.py debe hacer lo siguiente:
 ```
 city = request.form['city']
 ```
-**Parametros:**
+**Parámetros:**
 
 - Ninguno
 
@@ -158,10 +158,10 @@ city = request.form['city']
 
 ### list_hospital_patients(hospital_id)
 
-**Descipcion:**
+**Descripción:**
 - Busca todos los pacientes correspondientes a un hospital ordenados por el nombre (de la A a la Z)
 
-**Parametros:**
+**Parámetros:**
 
 - hospital_id - Id del hospital
 
@@ -171,10 +171,10 @@ city = request.form['city']
 
 ### read_patient(hospital_id, patient_id)
 
-**Descipcion:**
+**Descripción:**
 - Busca los datos de un paciente
 
-**Parametros:**
+**Parámetros:**
 
 - hospital_id - Id del hospital
 - patient_id - Id del paciente a actualizar
@@ -185,10 +185,10 @@ city = request.form['city']
 
 ### create_patient(hospital_id)
 
-**Descipcion:**
+**Descripción:**
 - Crea un paciente dentro de un hospital
 
-**Parametros:**
+**Parámetros:**
 
 
 - id - id del Paciente, debe generarse con:
@@ -206,10 +206,10 @@ id = uuid.uuid4()
 
 ### update_patient(hospital_id, patient_id)
 
-**Descipcion:**
+**Descripción:**
 - Actualiza los datos del paciente identificado por patient_id
 
-**Parametros:**
+**Parámetros:**
 
 - hospital_id - Id del hospital
 - patient_id - Id del paciente
@@ -223,10 +223,10 @@ id = uuid.uuid4()
 
 ### delete_patient(patient_id)
 
-**Descipcion:**
+**Descripción:**
 - Borra un paciente de la base de datos
 
-**Parametros:**
+**Parámetros:**
 
 - patient_id - Id del paciente
 
@@ -236,13 +236,13 @@ id = uuid.uuid4()
 
 ### assignDoctor(hospital_id, patient_id)
 
-**Descipcion:**
+**Descripción:**
 - Asigna un medico a un paciente en la base de datos.
 - Para acceder al id del doctor puede usar:
 ```
 doctor_id = request.form['doctor']
 ```
-**Parametros:**
+**Parámetros:**
 
 - patient_id - Id del paciente
 - hospital_id - Id del hospital
@@ -253,10 +253,10 @@ doctor_id = request.form['doctor']
 
 ### show_patient_doctors(hospital_id, patient_id)
 
-**Descipcion:**
+**Descripción:**
 - Devuelve los doctores que estan asignados a un paciente.
 
-**Parametros:**
+**Parámetros:**
 
 - patient_id - Id del paciente
 - hospital_id - Id del hospital
@@ -271,5 +271,5 @@ doctor_id = request.form['doctor']
 El alumno deberá subir a Moodle únicamente el fichero *run.py* con las modificaciones realizadas. 
 
 **RÚBRICA**: Cada método que se pide resolver de la practica se puntuara de la siguiente manera:
--  **1 punto por cada uno de las siguientes funciones realizadas:**  list_hospitals, filterHospitalsByCity, list_hospital_patients, read, create, update y delete
+-  **1 punto por cada uno de las siguientes funciones realizadas:**  list_hospitals, filterHospitalsByCity, list_hospital_patients, read_patient, create_patient, update_patient y delete_patient.
 -  **1,5 puntos por cada uno de las siguientes funciones realizadas:**  assignDoctor y showPatientDoctors 
